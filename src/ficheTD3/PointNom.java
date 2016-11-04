@@ -1,7 +1,7 @@
 package ficheTD3;
 
 
-public class PointNom extends Point{
+public class PointNom extends PointA{ // erreur dans la relation d'heritage 
 
  private String name;
     
@@ -12,7 +12,7 @@ public class PointNom extends Point{
     
     
    @Override
-	public String toString() {
+	public String toString() { //le but est de définir une méthode qu'on va reféfinir au niveau de la classe fille 
 		return "(" + getX() + ", " + getY() + ")";
 	}
     
