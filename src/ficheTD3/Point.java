@@ -24,6 +24,15 @@ public class Point {
 		return new Point(-x, y);
 
 	}
+	  public void deplace(int dx, int dy) {
+        x += dx;
+        y += dy;
+    }
+    public void deplace1(int dx) {
+        x += dx;
+        y += dx;
+
+    }
 
 	
 	public String toString() {
