@@ -18,7 +18,7 @@ public class PointA extends Point{
     
     @Override
 //polymorphisme redefinition
-	public String toString() {
+	public String afficheCoord() {
 		return "(" + getX() + ", " + getY() + ")";
 	}
     
