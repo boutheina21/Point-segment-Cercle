@@ -2,7 +2,7 @@ package ficheTD3;
 
 public class Segment {
 
-	public Point A = new Point();
+	public Point A = new Point();//nrmlmnt tu déclare les atributs private est tu n'a pas obligé de initialisé les atributs par new point ()
 	public Point B = new Point();
 
 	public Segment(Point A, Point B) {
